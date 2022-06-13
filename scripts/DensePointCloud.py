@@ -33,7 +33,7 @@ pretty_print('This may take a while...')
 # MulScale - Scale the images instead of their original size to be 600x2000
 os.system('mm3d Tapioca MulScale "../TestDataset/IMG.*.JPG" 600 2000')
 
-pretty_print('Tie-points search is finished!')
+pretty_print('Step complete: Tie-points search')
 pretty_print('\n')
 pretty_print('\n')
 pretty_print('\n')
@@ -53,11 +53,11 @@ input (with the InCal tool) run on images from the object.
 In the command prompt, we can control the residues as the calculation goes.
 At the last step, we can see that the image residual are for all the images lower than a half-pixel.
 We also have to see the number of tie-points, as well as the percentage of keeping points ("99.8258 of 38466" : 99.8% of tie-points kept than 38466 calculated points).
-
 '''
 
 pretty_print('This may take a while...')
 os.system('mm3d Tapas RadialStd "../TestDataset/IMG.*.JPG" Out=DroneTopic')
+pretty_print('Step complete: Internal Orientation + Relative Orientation')
 
 '''
 =============================================
@@ -70,3 +70,4 @@ The orientation will be in an arbitrary system, but the same system will be kept
 The 4 depth maps generated (as well as the 4 clouds) will therefore be in the same coordinate system.
 '''
 os.system('mm3d AperiCloud "../TestDataset/IMG.*.JPG" DroneTopic')
+pretty_print('This may take a while...')
