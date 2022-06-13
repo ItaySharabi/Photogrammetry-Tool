@@ -12,3 +12,4 @@ def pretty_print(content: str) -> None:
             sleep(0.035)
         print(c, end="", flush=True)
     print("")
+
