@@ -10,13 +10,14 @@ DATASET_DIR = f"../TestDataset_{MODEL_NAME}/.*.jpg"
 if len(sys.argv) == 3:
     DATASET_DIR = sys.argv[1]
     MODEL_NAME = sys.argv[2]
+
 # This script is provided by a MicMac tutorial
 # which could be found here: https://micmac.ensg.eu/index.php/Fontaine_tutorial
 
 
-pretty_print('============================================='
-             '============= Tie-points search ============='
-             '=============================================')
+pretty_print('=============================================\n'
+             '============= Tie-points search =============\n'
+             '=============================================\n')
 '''
 The tie points search for all the images should be computed
 simultaneously so all parts of images are linked with each other.
@@ -31,7 +32,7 @@ run the tie-points search at a bigger resolution (here 2500) on the optimal sets
 pretty_print('This may take a while...')
 # Execute Tie-Point search using `Tapioca - a tool by `MicMac`
 # MulScale - Scale the images instead of their original size to be 600x2000
-os.system('mm3d Tapioca MulScale "../TestDataset/IMG.*.JPG" 600 2000')
+os.system(f'mm3d Tapioca MulScale {DATASET_DIR} 600 2000')
 
 pretty_print('Step complete: Tie-points search')
 pretty_print('\n')
@@ -56,7 +57,7 @@ We also have to see the number of tie-points, as well as the percentage of keepi
 '''
 
 pretty_print('This may take a while...')
-os.system('mm3d Tapas RadialStd "../TestDataset/IMG.*.JPG" Out=DroneTopic')
+os.system(f'mm3d Tapas RadialStd {DATASET_DIR} Out={MODEL_NAME}')
 pretty_print('Step complete: Internal Orientation + Relative Orientation')
 
 '''
@@ -69,5 +70,5 @@ simultaneously so all parts of images are linked with each other.
 The orientation will be in an arbitrary system, but the same system will be kept for all the images.
 The 4 depth maps generated (as well as the 4 clouds) will therefore be in the same coordinate system.
 '''
-os.system('mm3d AperiCloud "../TestDataset/IMG.*.JPG" DroneTopic')
+os.system(f'mm3d AperiCloud {DATASET_DIR} {MODEL_NAME}')
 pretty_print('This may take a while...')

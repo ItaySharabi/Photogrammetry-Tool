@@ -23,7 +23,7 @@ os.system(f'mm3d Tapas FraserBasic {DATASET_DIR} Out={MODEL_NAME} {DISCARD_OUTPU
 # Visualize relative orientation:
 # MicMac includes a tool which creates a sparse point cloud (TP)
 # for visualization. This tool is AperiCloud
-os.system(f'mm3d AperiCloud {DATASET_DIR} {MODEL_NAME} {DISCARD_OUTPUT}')  # 8 = #CPU's to use
+os.system(f'mm3d AperiCloud {DATASET_DIR} {MODEL_NAME} {DISCARD_OUTPUT}')
 
 # 8 = #CPU's to use
 # os.system(f'mm3d GCPBascule {DATASET_DIR} {MODEL_NAME} Ground_Init Dico-Appuis.xml Mesure-Appuis.xml')
