@@ -1,3 +1,7 @@
 .gitignore
 out/
 .idea/
+TestDataset/Homol/
+TestDataset/Ori*/
+TestDataset/Tmp*/
+TestDataset/Pastis/
