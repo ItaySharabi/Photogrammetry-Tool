@@ -51,8 +51,8 @@ Testing our very small dataset on MicMac tools have produced the following resul
   
 </span>
 
-Around 10-12 images of this statue have produced the following result:
 
-## Meshlab Visualization:
+
+## Meshlab Visualization (14 images from the test dataset):
 
 ![image](https://user-images.githubusercontent.com/63110245/173887033-7204c131-03b4-4c58-a5d2-75b797afabd4.png)
