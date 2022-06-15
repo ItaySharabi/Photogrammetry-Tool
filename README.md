@@ -53,6 +53,8 @@ Testing our very small dataset on MicMac tools have produced the following resul
 
 Around 10-12 images of this statue have produced the following result:
 
+<br>
+A very low resolution point cloud (Low data volume - high noise):
 
 ![statue](https://user-images.githubusercontent.com/63110245/173766653-d33947b5-33fa-4156-8473-4a24f4c604d4.jpeg)
 
