@@ -53,9 +53,6 @@ Testing our very small dataset on MicMac tools have produced the following resul
 
 Around 10-12 images of this statue have produced the following result:
 
-<br>
-A very low resolution point cloud (Low data volume - high noise):
-
 ## Meshlab Visualization:
 
 ![image](https://user-images.githubusercontent.com/63110245/173887033-7204c131-03b4-4c58-a5d2-75b797afabd4.png)
