@@ -53,6 +53,8 @@ Testing our very small dataset on MicMac tools have produced the following resul
 
 
 
-## Meshlab Visualization (14 images from the test dataset):
+## Meshlab Visualization:
+
+A 3D point cloud produced by running this tool on the given Statue dataset:
 
 ![image](https://user-images.githubusercontent.com/63110245/173887033-7204c131-03b4-4c58-a5d2-75b797afabd4.png)
