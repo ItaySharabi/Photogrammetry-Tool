@@ -1,6 +1,7 @@
 #!/bin/bash
 import os
 
+# Windows setup procedure:
 
 # Save the current ACL of this folder (pwd).
 print('Saving current directory permission (Access Control List)')
