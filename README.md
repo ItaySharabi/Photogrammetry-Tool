@@ -1,3 +1,12 @@
+
+<span>
+  
+<img src="https://user-images.githubusercontent.com/63110245/173887033-7204c131-03b4-4c58-a5d2-75b797afabd4.png" width=400 height=300>
+
+<img src="https://user-images.githubusercontent.com/63110245/173765329-67fd1af9-58b9-43e3-9b6a-b83b97d4e859.png" width=400 height=300 align=right>
+  
+</span>
+
 # MicMac Photogrammetry tools - Automated!
 
 <a href="https://micmac.ensg.eu/index.php/Accueil"> MicMac </a> is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios. MicMac aims mainly at professionnal or academic users but constant efforts are made to make it more accessible to the general public.
