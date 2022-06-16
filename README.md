@@ -1,10 +1,8 @@
 
 <span>
+  <img src="https://user-images.githubusercontent.com/63110245/173765329-67fd1af9-58b9-43e3-9b6a-b83b97d4e859.png" width=300 height=200 align=left>
   
-<img src="https://user-images.githubusercontent.com/63110245/173887033-7204c131-03b4-4c58-a5d2-75b797afabd4.png" width=400 height=300>
-
-<img src="https://user-images.githubusercontent.com/63110245/173765329-67fd1af9-58b9-43e3-9b6a-b83b97d4e859.png" width=400 height=300 align=right>
-  
+  <img src="https://user-images.githubusercontent.com/63110245/174051863-2b6ba4a3-54cc-44ed-9da5-41363d3ee604.png" width=300 height=200 align=center>
 </span>
 
 # MicMac Photogrammetry tools - Automated!
