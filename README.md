@@ -2,7 +2,7 @@
 <span>
   <img src="https://user-images.githubusercontent.com/63110245/173765329-67fd1af9-58b9-43e3-9b6a-b83b97d4e859.png" width=300 height=200 align=left>
   
-  <img src="https://user-images.githubusercontent.com/63110245/174051863-2b6ba4a3-54cc-44ed-9da5-41363d3ee604.png" width=300 height=200 align=right>
+  <img src="https://user-images.githubusercontent.com/63110245/174051863-2b6ba4a3-54cc-44ed-9da5-41363d3ee604.png" width=300 height=200 align=center>
 </span>
 
 
@@ -12,7 +12,6 @@
 
 <p><br></p>
 <p>
-<br>
 <a href="https://micmac.ensg.eu/index.php/Accueil"> MicMac </a> is a free open-source photogrammetric suite that can be used in a variety of 3D reconstruction scenarios. MicMac aims mainly at professionnal or academic users but constant efforts are made to make it more accessible to the general public.
 </p>
 One of MicMac strengths is its high degree of versatility. It can indeed be used in various fields: cartography, environment, industry, forestry, heritage, archaeology,...
